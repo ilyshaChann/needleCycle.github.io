@@ -1,0 +1,458 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/geometria_medium.eot');
+	src: local('☺'), url('../fonts/geometria_medium.woff') format('woff'), url('../fonts/geometria_medium.ttf') format('truetype'), url('../fonts/geometria_medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@media(max-width: 991px){
+	.utilizate_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.utilizate_content img {
+		margin-bottom: 5%;
+	}
+	.grow_in_garden_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.grow_in_garden img {
+		margin-bottom: 5%;
+	}
+	.fertilizer_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.fertilizer img {
+		margin-bottom: 5%;
+	}
+	.bathhouse_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.bathhouse img {
+		margin-bottom: 5%;
+	}
+	.spruce_decoction_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.spruce_decoction img {
+		margin-bottom: 5%;
+	}
+	.natural_flavor_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.natural_flavor img {
+		margin-bottom: 5%;
+	}
+	.zoo_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.zoo img {
+		margin-bottom: 5%;
+	}
+	.living_spruce_text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.living_spruce img {
+		margin-bottom: 5%;
+	}
+}
+
+
+body {
+	background: #1E1E1E;
+}
+
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+	box-shadow: rgba(255, 255, 255, 0.05) 0px 42px 90px 24px;
+	border-radius: 20px 10px 20px 10px;
+}
+
+.utilizate_text {
+	max-width: 460px;
+	margin-top: 10%;
+}
+
+.utilizate_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.utilizate_content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.utilizate_content img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.5) 0px 0px 200px 40px;
+	border-radius: 100%;
+	background: rgba(173, 255, 0, 0.36);
+}
+
+.utilizate_content span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 0px 0px 100px 80px rgba(32, 108, 163, 0.2);
+	-moz-box-shadow: 0px 0px 100px 80px rgba(32, 108, 163, 0.2);
+	box-shadow: 0px 0px 100px 80px rgba(32, 108, 163, 0.2);
+	background: -webkit-linear-gradient(90deg, rgb(46, 32, 77), rgb(33, 117, 176));
+	background: -moz-linear-gradient(90deg, rgb(46, 32, 77), rgb(33, 117, 176));
+	background: linear-gradient(90deg, rgb(46, 32, 77), rgb(33, 117, 176));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+.grow_in_garden_text {
+	margin-top: 10%;
+	max-width: 650px;
+}
+
+.grow_in_garden_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.grow_in_garden {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.grow_in_garden img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.5) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.26);
+	border-radius: 100%;
+}
+
+.grow_in_garden span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 0px 0px 100px 100px rgba(40, 100, 173, 0.2);
+	-moz-box-shadow: 0px 0px 100px 100px rgba(40, 100, 173, 0.2);
+	box-shadow: 0px 0px 100px 100px rgba(40, 100, 173, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(40, 100, 173), rgb(159, 38, 135));
+	background: -moz-linear-gradient(135deg, rgb(40, 100, 173), rgb(159, 38, 135));
+	background: linear-gradient(135deg, rgb(40, 100, 173), rgb(159, 38, 135));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+
+.fertilizer_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.fertilizer_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+
+.fertilizer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.fertilizer img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.53) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.26);
+	border-radius: 100px 30px 100px 30px;
+}
+
+.fertilizer span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 0px 0px 60px 60px rgba(66, 79, 38, 0.2);
+	-moz-box-shadow: 0px 0px 60px 60px rgba(66, 79, 38, 0.2);
+	box-shadow: 0px 0px 60px 60px rgba(66, 79, 38, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(77, 93, 34), rgb(99, 124, 95), rgb(167, 144, 68));
+	background: -moz-linear-gradient(135deg, rgb(77, 93, 34), rgb(99, 124, 95), rgb(167, 144, 68));
+	background: linear-gradient(135deg, rgb(77, 93, 34), rgb(99, 124, 95), rgb(167, 144, 68));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+
+.bathhouse_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.bathhouse_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.bathhouse {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.bathhouse img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.53) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.29);
+	border-radius: 40%;
+}
+
+.bathhouse span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 40px 0px 60px 60px rgba(25, 132, 173, 0.2);
+	-moz-box-shadow: 40px 0px 60px 60px rgba(25, 132, 173, 0.2);
+	box-shadow: 40px 0px 60px 60px rgba(25, 132, 173, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(21, 31, 55), rgb(13, 139, 164), rgb(17, 135, 167));
+	background: -moz-linear-gradient(135deg, rgb(21, 31, 55), rgb(13, 139, 164), rgb(17, 135, 167));
+	background: linear-gradient(135deg, rgb(21, 31, 55), rgb(13, 139, 164), rgb(17, 135, 167));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+.spruce_decoction_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.spruce_decoction_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+
+}
+
+.spruce_decoction {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.spruce_decoction img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.53) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.29);
+	border-radius: 42%;
+	transform: rotate(14deg);
+}
+
+
+.spruce_decoction span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 20px -10px 60px 55px rgba(55, 72, 167, 0.2);
+	-moz-box-shadow: 20px -10px 60px 55px rgba(55, 72, 167, 0.2);
+	box-shadow: 20px -10px 60px 55px rgba(55, 72, 167, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(49, 24, 100), rgb(52, 79, 170), rgb(104, 33, 138));
+	background: -moz-linear-gradient(135deg, rgb(49, 24, 100), rgb(52, 79, 170), rgb(104, 33, 138));
+	background: linear-gradient(135deg, rgb(49, 24, 100), rgb(52, 79, 170), rgb(104, 33, 138));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+.natural_flavor_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.natural_flavor_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.natural_flavor {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.natural_flavor img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.55) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.29);
+	border-radius: 35%;
+}
+
+
+.natural_flavor span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 20px -5px 70px 50px rgba(111, 27, 72, 0.2);
+	-moz-box-shadow: 20px -5px 70px 50px rgba(111, 27, 72, 0.2);
+	box-shadow: 20px -5px 70px 50px rgba(111, 27, 72, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(71, 21, 54), rgb(152, 34, 91), rgb(163, 102, 75));
+	background: -moz-linear-gradient(135deg, rgb(71, 21, 54), rgb(152, 34, 91), rgb(163, 102, 75));
+	background: linear-gradient(135deg, rgb(71, 21, 54), rgb(152, 34, 91), rgb(163, 102, 75));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+.zoo_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.zoo_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.zoo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+.zoo img {
+	max-width: 300px;
+	box-shadow: rgba(173, 255, 0, 0.56) 0px 0px 200px 40px;
+	background: rgba(173, 255, 0, 0.29);
+	border-radius: 32%;
+}
+
+
+.zoo span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 20px -5px 60px 60px rgba(154, 141, 62, 0.2);
+	-moz-box-shadow: 20px -5px 60px 60px rgba(154, 141, 62, 0.2);
+	box-shadow: 20px -5px 60px 60px rgba(154, 141, 62, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(85, 72, 46), rgb(170, 153, 66), rgb(127, 132, 74));
+	background: -moz-linear-gradient(135deg, rgb(85, 72, 46), rgb(170, 153, 66), rgb(127, 132, 74));
+	background: linear-gradient(135deg, rgb(85, 72, 46), rgb(170, 153, 66), rgb(127, 132, 74));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
+
+.living_spruce_text {
+	max-width: 650px;
+	margin-top: 10%;
+}
+
+.living_spruce_text h2 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 63px;
+	color: #FFFFFF;
+}
+
+.living_spruce {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.living_spruce img {
+	max-width: 300px;
+	box-shadow: rgba(72, 51, 124, 0.52) 0px 0px 200px 40px;
+	background: rgba(72, 51, 124, 0.27);
+	border-radius: 10%;
+}
+
+.living_spruce span {
+	max-width: 570px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	-webkit-box-shadow: 20px -5px 80px 60px rgba(34, 103, 152, 0.2);
+	-moz-box-shadow: 20px -5px 80px 60px rgba(34, 103, 152, 0.2);
+	box-shadow: 20px -5px 80px 60px rgba(34, 103, 152, 0.2);
+	background: -webkit-linear-gradient(135deg, rgb(21, 42, 61), rgb(44, 108, 172), rgb(17, 143, 176));
+	background: -moz-linear-gradient(135deg, rgb(21, 42, 61), rgb(44, 108, 172), rgb(17, 143, 176));
+	background: linear-gradient(135deg, rgb(21, 42, 61), rgb(44, 108, 172), rgb(17, 143, 176));
+	border-radius: 20px 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+}
